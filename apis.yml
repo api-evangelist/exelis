@@ -1,7 +1,12 @@
 aid: exelis
-url: https://raw.githubusercontent.com/api-evangelist/exelis/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/exelis/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.exelis.com
+description: >-
+  Exelis was an aerospace, defense, information, and services company providing communications
+  systems, electronic warfare, geospatial systems, and integrated structures before
+  being acquired by Harris Corporation.
