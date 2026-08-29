@@ -9,6 +9,17 @@ description: >-
   L3Harris Technologies. No public APIs are published under the Exelis brand;
   developer resources, if any, are tracked under L3Harris.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
