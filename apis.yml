@@ -37,12 +37,16 @@ tags:
   - Defense
   - Acquired
   - L3Harris
-url: >-
+  - Electronic Warfare
+  - Geospatial
+  - Night Vision
+  - Government
+  - Defunct
+url: https://raw.githubusercontent.com/api-evangelist/exelis/refs/heads/main/apis.yml
 x-api-posture: no-product-api
 x-api-posture-basis: observed
-  https://raw.githubusercontent.com/api-evangelist/exelis/refs/heads/main/apis.yml
 created: '2026-03-24'
-modified: '2026-04-28'
+modified: '2026-09-07'
 position: Consuming
 access: 3rd-Party
 specificationVersion: '0.23'
@@ -61,3 +65,27 @@ maintainers:
     email: kin@apievangelist.com
 x-parent: l3harris-technologies
 x-relationship: acquisition
+x-enrichment:
+  date: '2026-09-07'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    Exelis Inc. ceased to exist as a company when Harris Corporation acquired it in 2015
+    and folded it into L3Harris in 2019; exelis.com now answers only an unconfigured
+    OVHcloud "Site not installed" 404 page that L3Harris does not operate, exelisvis.com
+    no longer resolves at all, and exelisinc.com resolves but refuses connections, so
+    there is no Exelis-brand host left on which an API could be published.
+  evidence:
+    - url: https://exelis.com/
+      status: 404
+    - url: https://exelis.com/.well-known/security.txt
+      status: 404
+    - url: https://exelis.com/apis.json
+      status: 404
+    - url: https://www.l3harris.com/.well-known/api-catalog
+      status: 404
+  checked: '2026-09-07'

@@ -1,0 +1,88 @@
+generated: '2026-09-07'
+method: probed
+source: live HTTPS probes of every host this record knows for the Exelis brand
+note: >-
+  Exelis Inc. was acquired by Harris Corporation in 2015 and folded into L3Harris
+  Technologies in 2019. Every historic Exelis-brand host is gone: exelisvis.com and
+  www.exelisinc.com no longer resolve, exelisinc.com resolves but does not accept
+  connections, and exelis.com now answers from an unconfigured OVHcloud shared-hosting
+  slot ("Site not installed") that is not operated by L3Harris. www.l3harris.com is the
+  successor host carried on this record's Website pointer and is probed here for
+  completeness only — it belongs to the parent record (all/l3harris-technologies), not to
+  the Exelis brand, so no pointer is emitted for it from this repo. Every path on every
+  host returned 404. No WellKnown or SecurityTxt pointer is wired, because nothing was
+  served.
+hit_count: 0
+path_echo_control: passed
+hosts:
+  - host: https://exelis.com
+    note: >-
+      Resolves to 164.132.235.17 (OVHcloud). Serves an OVHcloud "Site not installed"
+      holding page with HTTP 404 for every path, including the domain root. Not an
+      Exelis or L3Harris property.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 404
+      - path: /apis.yml
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /.well-known/exelis-negative-control-7f3ab91c.json
+        status: 404
+  - host: https://www.l3harris.com
+    note: >-
+      Successor/parent host, probed for completeness. Owned by L3Harris Technologies,
+      not by the Exelis brand — see all/l3harris-technologies. Every path 404s.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 404
+      - path: /apis.yml
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /.well-known/exelis-negative-control-7f3ab91c.json
+        status: 404
+  - host: https://exelisinc.com
+    note: >-
+      Resolves to 151.190.253.111 but the TLS/TCP connection times out; no HTTP response
+      was observed, so no document rows are recorded.
+    documents: []
+  - host: https://exelisvis.com
+    note: >-
+      NXDOMAIN — the Exelis Visual Information Solutions domain no longer resolves. The
+      ENVI/IDL Services Engine REST surface that ran under this brand was sold with the
+      unit to Harris Geospatial and is published today by NV5 Geospatial, so it belongs
+      to that company, not to Exelis.
+    documents: []
