@@ -1,7 +1,9 @@
 ---
 title: Generative Artificial Intelligence in the DoD Acquisition ...
 url: https://acqirc.org/events/generative-artificial-intelligence-in-the-dod-acquisition-lifecycle/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Exelis" press release artificial intelligence'
 position: 3
 source: serpapi-google

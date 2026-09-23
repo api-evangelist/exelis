@@ -1,7 +1,9 @@
 ---
 title: SparkCognition Government Systems Appoints Lieutenant ...
 url: https://www.prnewswire.com/news-releases/sparkcognition-government-systems-appoints-lieutenant-general-ken-hunzeker-ret-to-board-of-directors-301518687.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Exelis" press release artificial intelligence'
 position: 4
 source: serpapi-google

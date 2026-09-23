@@ -1,7 +1,9 @@
 ---
 title: Harris completes $4.75 billion acquisition of Exelis
 url: https://rbj.net/2015/05/29/harris-completes-4-75-billion-acquisition-of-exelis/
-date: '2026-05-25'
+published: '2015-05-29'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Exelis" press release artificial intelligence'
 position: 2
 source: serpapi-google
