@@ -1,4 +1,4 @@
-# Exelis (exelis)
+# Exelis
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,36 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Exelis Inc. was an American global aerospace, defense, information, and services company that produced communications systems, electronic warfare products, geospatial systems, integrated structures, and night vision equipment. Headquartered in McLean, Virginia, Exelis was acquired by Harris Corporation in 2015. Harris and L3 Technologies then merged in 2019 to form L3Harris Technologies. This repository tracks the APIs, developer tools, and machine-readable API artifacts associated with Exelis.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/exelis/refs/heads/main/apis.yml)
+Exelis Inc. was an American global aerospace, defense, information, and services company that produced communications systems, electronic warfare products, geospatial systems, integrated structures, and night vision equipment. Headquartered in McLean, Virginia, Exelis was acquired by Harris Corporation in 2015. Harris and L3 Technologies then merged in 2019 to form L3Harris Technologies. No public APIs are published under the Exelis brand; developer resources, if any, are tracked under L3Harris.
 
-## Scope
+**Areas:** Aerospace · Defense · Acquired · L3Harris · Electronic Warfare · Geospatial · Night Vision · Government · Defunct
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+## Exelis on APIs.io (historical record)
 
-## Tags:
+Everything profiled for Exelis is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/exelis/](https://apis.io/providers/exelis/)** — or go straight to one of the APIs or properties below.
 
- - Aerospace, Defense, Acquired, L3Harris
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-03-24
-- **Modified:** 2026-04-28
+#### Security (1)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-No public APIs are published under the Exelis brand. Following the 2015 acquisition by Harris and the 2019 merger that formed L3Harris Technologies, any successor developer resources are tracked under L3Harris.
+- [Exelis Domain Security](https://apis.io/security/exelis/exelis-domain-security/)
 
-## Common Properties
+## Where to find this API
 
-- [Website (L3Harris)](https://www.l3harris.com)
-- [Wikipedia](https://en.wikipedia.org/wiki/Exelis_Inc.)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Maintainers
+- [Website](https://www.l3harris.com)
 
-**FN:** Kin Lane
+## API Evangelist rating
 
-**Email:** kin@apievangelist.com
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Exelis: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/exelis/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
